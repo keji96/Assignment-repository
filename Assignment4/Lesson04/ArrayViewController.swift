@@ -43,7 +43,8 @@ class ArrayViewController: UIViewController, UITextFieldDelegate, UITableViewDat
         
     var cell = arrayTable.dequeueReusableCellWithIdentifier("mycell") as UITableViewCell
         
-        cell.textLabel!.text = arrayForPopulation[arrayForPopulation.count - 1 - indexPath.row]
+        arrayForPopulation.sort{$0 < $1}
+        cell.textLabel!.text = arrayForPopulation[indexPath.row]
         
         
         return cell
