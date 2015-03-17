@@ -17,20 +17,12 @@ class ArrayViewController: UIViewController, UITextFieldDelegate, UITableViewDat
     func textFieldShouldReturn(textField: UITextField) -> Bool {
         arrayForPopulation.append(inputArrayTextBox.text)
         arrayTable.reloadData()
+        inputArrayTextBox.resignFirstResponder()
         inputArrayTextBox.text = ""
         return true
     }
 
-    
-    
-//    @IBAction func buttonPressArrayPop(sender: AnyObject) {
-//        
-//        arrayForPopulation.append(inputArrayTextBox.text)
-//        
-//       arrayTable.reloadData()
-//    
-//    }
-    
+
     
     var arrayForPopulation = [String]()
     func tableView(arrayTable: UITableView, numberOfRowsInSection section: Int) -> Int {

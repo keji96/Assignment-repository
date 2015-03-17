@@ -46,17 +46,10 @@ class MapViewController: UIViewController, UITableViewDataSource, UITextFieldDel
         var cell = arrayTable2.dequeueReusableCellWithIdentifier("mycell2") as UITableViewCell
         
         let sortedKeys = Array(dictionaryForPopulation.keys).sorted(<)
-        //let person = dictionaryForPopulation.keys.array[indexPath.row]
         
         cell.textLabel!.text = sortedKeys[indexPath.row]
         cell.detailTextLabel!.text = dictionaryForPopulation[sortedKeys[indexPath.row]]
         
-        
-        
-        
-//        let person = dictionaryForPopulation.keys.array[indexPath.row]
-//        cell.textLabel!.text = person
-//        cell.detailTextLabel!.text = dictionaryForPopulation[person]
         
         if indexPath.row % 2 == 0 {
             cell.backgroundColor = UIColor.whiteColor()
