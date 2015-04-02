@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>FA66F6B7-3D6C-4246-9F43-F324D4356419</string>
+	<string>AE1B59BC-46B3-4964-92D3-259C3F8D4E4B</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Lesson02</string>
+	<string>calcautolayoutprac</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>14D237947C26DA24FDD31052877B592BF9C7F431</key>
-		<string>https://github.com/keji96/Assignment-repository.git</string>
+		<key>452ABD6BC98041D5258C986FAFFE4EE2E4D2C246</key>
+		<string>https://github.com/keji96/assignments-Local.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>assignment2/Lesson02.xcodeproj</string>
+	<string>Midterm Calculator/calcautolayoutprac.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>14D237947C26DA24FDD31052877B592BF9C7F431</key>
+		<key>452ABD6BC98041D5258C986FAFFE4EE2E4D2C246</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/keji96/Assignment-repository.git</string>
+	<string>https://github.com/keji96/assignments-Local.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>14D237947C26DA24FDD31052877B592BF9C7F431</string>
+	<string>452ABD6BC98041D5258C986FAFFE4EE2E4D2C246</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>14D237947C26DA24FDD31052877B592BF9C7F431</string>
+			<string>452ABD6BC98041D5258C986FAFFE4EE2E4D2C246</string>
 			<key>IDESourceControlWCCName</key>
-			<string>assignment%20repository</string>
+			<string>assignments%20Local</string>
 		</dict>
 	</array>
 </dict>
